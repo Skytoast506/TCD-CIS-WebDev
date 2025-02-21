@@ -55,22 +55,19 @@ html * {
 # General Elements
 --------------------------------------------------------------*/
 body {
-margin: 0px;
+margin: 0%;
 }
-main {
-width: calc(70% - 1px);
-float: left;
-padding: 1rem;
-border-right: 1px;
-}
-aside {
-width: 30%;
-float: right;
+
+img {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
 }
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
-nav {
+nav ul {
 list-style-type: square;
 color: orange;
 }
@@ -78,19 +75,19 @@ nav a {
   color: black;
 }
 nav a:visited {
-  color: black;
+  color: rgb(116, 87, 9);
 }
 nav a:hover {
-  color: orange;
+  color: orange
 }
 nav a:active {
-  color: orange;
+  color: orange
 }
 /*--------------------------------------------------------------
 # Header Area
 --------------------------------------------------------------*/
 header {
-background-color: #706b65;
+background-color: #a8a39e;
 padding: 20px;
 }
 
@@ -98,12 +95,24 @@ padding: 20px;
 # Content Area
 --------------------------------------------------------------*/
 
+main {
+  width: calc(70% - 1px);
+  float: left;
+  padding: 1rem;
+  border-right: 1px solid lightgray;
+
+  }
+  aside {
+  width: 30%;
+  float: right;
+  }
 
 /*--------------------------------------------------------------
 # Footer Area
 --------------------------------------------------------------*/
 footer {
-background-color: #706b65;
+background-color: #a8a39e;
+clear: both;
 text-align: center;
 }
 
